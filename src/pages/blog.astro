@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="NowyJa - Blog">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-4xl font-bold font-serif text-gray-900 mb-8">Blog</h1>
+    
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643" 
+             alt="Laptop na biurku" 
+             class="w-full h-48 object-cover"/>
+        <div class="p-6">
+          <h2 class="font-serif text-xl font-bold text-gray-900 mb-2">
+            <a href="#" class="hover:text-indigo-600">Jak rozpocząć swoją transformację?</a>
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Pierwsze kroki w kierunku zmiany mogą być trudne. Poznaj sprawdzone metody rozpoczęcia swojej drogi...
+          </p>
+          <div class="flex items-center text-sm text-gray-500">
+            <time datetime="2024-03-20">20 marca 2024</time>
+            <span class="mx-2">·</span>
+            <span>5 min czytania</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" 
+             alt="Plaża o zachodzie słońca" 
+             class="w-full h-48 object-cover"/>
+        <div class="p-6">
+          <h2 class="font-serif text-xl font-bold text-gray-900 mb-2">
+            <a href="#" class="hover:text-indigo-600">Medytacja dla początkujących</a>
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Odkryj, jak rozpocząć przygodę z medytacją i dlaczego warto włączyć ją do codziennej rutyny...
+          </p>
+          <div class="flex items-center text-sm text-gray-500">
+            <time datetime="2024-03-18">18 marca 2024</time>
+            <span class="mx-2">·</span>
+            <span>4 min czytania</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773" 
+             alt="Górski szczyt" 
+             class="w-full h-48 object-cover"/>
+        <div class="p-6">
+          <h2 class="font-serif text-xl font-bold text-gray-900 mb-2">
+            <a href="#" class="hover:text-indigo-600">Stawianie celów, które inspirują</a>
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Poznaj skuteczne metody wyznaczania i osiągania celów, które naprawdę Cię motywują...
+          </p>
+          <div class="flex items-center text-sm text-gray-500">
+            <time datetime="2024-03-15">15 marca 2024</time>
+            <span class="mx-2">·</span>
+            <span>6 min czytania</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</Layout>
